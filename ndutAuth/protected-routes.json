@@ -1,0 +1,4 @@
+{
+  "/contact": ["GET", "POST"],
+  "/contact/:id": ["GET", "PUT", "DELETE"]
+}

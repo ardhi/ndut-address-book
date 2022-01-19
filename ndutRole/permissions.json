@@ -1,0 +1,8 @@
+[
+  {
+    "type": "rest",
+    "subject": ["/contact", "/contact/:id"],
+    "action": ["read", "create", "update", "remove"],
+    "private": true
+  }
+]

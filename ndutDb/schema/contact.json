@@ -1,0 +1,69 @@
+{
+  "properties": {
+    "firstName": {
+      "type": "String",
+      "length": 50,
+      "required": true
+    },
+    "lastName": {
+      "type": "String",
+      "length": 50,
+      "required": true
+    },
+    "company": {
+      "type": "String",
+      "length": 50
+    },
+    "department": {
+      "type": "String",
+      "length": 50
+    },
+    "address1": "String",
+    "address2": "String",
+    "city": {
+      "type": "String",
+      "length": 50,
+      "required": true
+    },
+    "zipCode": {
+      "type": "String",
+      "length": 10
+    },
+    "state": {
+      "type": "String",
+      "length": 50
+    },
+    "country": {
+      "type": "String",
+      "length": 2,
+      "required": true
+    },
+    "phone": {
+      "type": "String",
+      "length": 50
+    },
+    "email": {
+      "type": "String",
+      "length": 50
+    },
+    "website": {
+      "type": "String",
+      "length": 255
+    },
+    "remark": {
+      "type": "String",
+      "length": 255
+    }
+  },
+  "feature": {
+    "createdAt": true,
+    "updatedAt": true,
+    "userId": true,
+    "siteId": true
+  },
+  "override": {
+    "schema": true,
+    "builtinFixture": true
+  },
+  "disableAliasCall": false
+}
