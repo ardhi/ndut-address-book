@@ -10,6 +10,10 @@
       "length": 50,
       "required": true
     },
+    "title": {
+      "type": "String",
+      "length": 50
+    },
     "company": {
       "type": "String",
       "length": 50
@@ -18,12 +22,11 @@
       "type": "String",
       "length": 50
     },
-    "address1": "String",
-    "address2": "String",
+    "address": "String",
+    "homeAddress": "String",
     "city": {
       "type": "String",
-      "length": 50,
-      "required": true
+      "length": 50
     },
     "zipCode": {
       "type": "String",
@@ -35,10 +38,17 @@
     },
     "country": {
       "type": "String",
-      "length": 2,
-      "required": true
+      "length": 2
     },
     "phone": {
+      "type": "String",
+      "length": 50
+    },
+    "homePhone": {
+      "type": "String",
+      "length": 50
+    },
+    "mobilePhone": {
       "type": "String",
       "length": 50
     },
@@ -58,7 +68,7 @@
   "feature": {
     "createdAt": true,
     "updatedAt": true,
-    "userId": true,
+    "private": true,
     "siteId": true
   },
   "override": {
