@@ -71,7 +71,7 @@
     "private": true,
     "siteId": true
   },
-  "override": {
+  "extend": {
     "schema": true,
     "builtinFixture": true
   },
