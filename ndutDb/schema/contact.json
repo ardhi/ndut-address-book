@@ -68,8 +68,8 @@
   "feature": {
     "createdAt": true,
     "updatedAt": true,
-    "private": true,
-    "siteId": true
+    "ndutAuthPrivate": true,
+    "ndutSiteSiteId": true
   },
   "extend": {
     "schema": true,
