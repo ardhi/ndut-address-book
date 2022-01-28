@@ -1,0 +1,7 @@
+[
+  {
+    "path": ["/contact", "/contact/:id"],
+    "method": ["read", "create", "update", "remove"],
+    "ndutAuthPrivate": true
+  }
+]
