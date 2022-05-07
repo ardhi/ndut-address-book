@@ -65,12 +65,7 @@
       "length": 255
     }
   },
-  "feature": {
-    "createdAt": true,
-    "updatedAt": true,
-    "ndutAuthPrivate": true,
-    "ndutSiteSiteId": true
-  },
+  "feature": ["createdAt", "updatedAt", "ndutAuthPrivate", "ndutSiteSiteId"],
   "extend": {
     "schema": true,
     "builtinFixture": true
